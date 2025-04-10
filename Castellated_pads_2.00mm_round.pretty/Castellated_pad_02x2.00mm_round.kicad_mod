@@ -1,0 +1,130 @@
+(footprint "Castellated_pad_02x2.00mm_round"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Castellated pad, 2.00mm pitch, round edge, github.com/nonszalancki/kicad_footprint_library")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6fa46126-c584-42a2-90a4-dcc4cd77c0c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Castellated_pad_02x2.00mm_round"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "93c5ff99-cc49-4b36-ab9b-6d832c753a48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b884c9fc-2a2c-4c14-aa5a-134eff777d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Castellated pad, 2.00mm pitch, round edge, github.com/nonszalancki/kicad_footprint_library"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d7df307-081e-48b7-9643-507625d8ed79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d2dfb22f-845a-42d9-9e8d-3c80b8d909f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "998d5847-2be4-43b7-8d67-f7e6e2179dc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -1 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d9e1eb4-0826-4abd-a82f-e847ab3958be")
+	)
+	(pad "1" smd circle
+		(at -1 0)
+		(size 1.6 1.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "ca9f9080-7bc6-439d-8703-970bddb818bb")
+	)
+	(pad "1" thru_hole rect
+		(at -1 1)
+		(size 1.6 1)
+		(drill 0.8
+			(offset 0 -0.5)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1486092f-94a4-4d27-b376-ea72e4400f35")
+	)
+	(pad "2" smd circle
+		(at 1 0)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "881d24dc-afec-489f-947c-c1dd9f8b6248")
+	)
+	(pad "2" smd circle
+		(at 1 0)
+		(size 1.6 1.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "2e95486d-01e5-4039-9ebc-f3ef921251dd")
+	)
+	(pad "2" thru_hole rect
+		(at 1 1)
+		(size 1.6 1)
+		(drill 0.8
+			(offset 0 -0.5)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "62afd344-c46f-45cf-a414-70bcc7cacb1a")
+	)
+	(embedded_fonts no)
+)
