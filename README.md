@@ -1,0 +1,1 @@
+# kicad_footprint_library
